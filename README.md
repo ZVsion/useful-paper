@@ -13,3 +13,5 @@
 　　evaluate: **Instance Networks**. instance embedding vector for each pixel; instance embeddings allow us to link objects together over time. we adapt the instance networks trained on static images to video object segmentation and **incorporate the embeddings with objectness and optical flow features, without model retraining or online fine-tuning.**
 
 2.Instance Embedding Transfer to Unsupervised Video Object Segmentation ([arxiv](https://arxiv.org/pdf/1801.00908v1.pdf))
+
+　　evaluate: 可以使用分割后较好的帧来继续优化网络参数（self-adaptation）。
