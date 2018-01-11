@@ -3,9 +3,7 @@
 # Semantic Segmentation
 1. Fully Convolutional Networks for Semantic Segmentation ([arxiv](http://arxiv.org/abs/1411.4038))
 
-　　主要贡献: - 使用反卷积层进行上采样，提出了跳跃连接来改善上采样的粗糙程度。
-  
-             - 反卷积层进行上采样时，不是使用简单的双线性插值，而是通过学习实现插值操作（利用双线性插值来初始化反卷积层的参数）。
+　　主要贡献: 1.使用反卷积层进行上采样，提出了跳跃连接来改善上采样的粗糙程度。 2.反卷积层进行上采样时，不是使用简单的双线性插值，而是通过学习实现插值操作（利用双线性插值来初始化反卷积层的参数）。
 
 
 # Video Object Segmentation
