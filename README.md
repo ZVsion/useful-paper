@@ -1,15 +1,15 @@
 # useful-paper
 
 # Semantic Segmentation
-1. Fully Convolutional Networks for Semantic Segmentation ([arxiv](http://arxiv.org/abs/1411.4038))
+1. Fully Convolutional Networks for Semantic Segmentation ([arxiv](http://arxiv.org/abs/1411.4038))([code](https://github.com/shekkizh/FCN.tensorflow))
 
 　　主要贡献: 1.使用反卷积层进行上采样，提出了跳跃连接来改善上采样的粗糙程度。 2.反卷积层进行上采样时，不是使用简单的双线性插值，而是通过学习实现插值操作（利用双线性插值来初始化反卷积层的参数）。
 
-2. Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs. ([arxiv](https://arxiv.org/pdf/1412.7062.pdf))
+2. Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs. ([arxiv](https://arxiv.org/pdf/1412.7062.pdf))([code](https://github.com/muyang0320/tensorflow-deeplab-resnet-crf))
 
 　　evaluation: This paper shows that responses at the final layer of DCNNs are not sufficiently localized for accurate object segmentation and overcomes this problem through combining the responses at the final DCNN layer with a fully connected CRF. The authors boost their model's ability to capture fine details by employing a fully-connected CRF.
   
-3. Conditional Random Fields as Recurrent Neural Networks. ([arxiv](https://arxiv.org/abs/1502.03240))
+3. Conditional Random Fields as Recurrent Neural Networks. ([arxiv](https://arxiv.org/abs/1502.03240))([code](https://github.com/sadeepj/crfasrnn_keras))
 
 　　evaluation: This paper formulate mean-field approximate inference for the CRF as RNN (CRF-RNN network). This network can be plugged in as a part of a CNN to obtain a deep network that has desirable properties of both CNNs and CRFs. Importantly, this system can train the whole deep network end-to-end with the usual back-propagation algorithm, avoiding offline post-processing methods for object delineation.
 
