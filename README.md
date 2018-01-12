@@ -9,7 +9,9 @@
 
 　　evaluation: This paper shows that responses at the final layer of DCNNs are not sufficiently localized for accurate object segmentation and overcomes this problem through combining the responses at the final DCNN layer with a fully connected CRF. The authors boost their model's ability to capture fine details by employing a fully-connected CRF.
   
-3. 
+3. Conditional Random Fields as Recurrent Neural Networks. ([arxiv](https://arxiv.org/abs/1502.03240))
+
+　　evaluation: This paper formulate mean-field approximate inference for the CRF as RNN (CRF-RNN network). This network can be plugged in as a part of a CNN to obtain a deep network that has desirable properties of both CNNs and CRFs. Importantly, this system can train the whole deep network end-to-end with the usual back-propagation algorithm, avoiding offline post-processing methods for object delineation.
 
 
 # Video Object Segmentation
