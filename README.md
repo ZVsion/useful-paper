@@ -13,7 +13,13 @@
 
 　　evaluation: This paper formulate mean-field approximate inference for the CRF as RNN (CRF-RNN network). This network can be plugged in as a part of a CNN to obtain a deep network that has desirable properties of both CNNs and CRFs. Importantly, this system can train the whole deep network end-to-end with the usual back-propagation algorithm, avoiding offline post-processing methods for object delineation.
 
-
+4. PixelNet
+ 
+    Evaluation: 探索关于一般像素级预测问题的方法，从低水平的边缘预测，到中水平的表面预测，到高水平的语义分割。 
+    贡献: 
+        (1)我们通过实验证明，由于像素间的空间相关性，每个图像只采样少量样本就足够用于学习。更重要的是，在不能提前的情况下(not early possible)，采样允许我们可以训练端到端的特定的非线性模型。并探索在基于FCN的框架下，改进效率和性能的几种途径。 
+        (2)与绝大多数使用预训练网络的模型相反，我们展示了像素级优化可以用来训练模型，或者用简单的随机高斯初始化从头开始。直观来说，和图像级标签相比，像素级标签提供了大量可监督的标签。不需要其他的数据，们的模型比PASCAL VOC-2012上的先前的无监督/自我监督的语义分割方法更胜一筹，在对表面法线估计的预处理模型的微调上，我们的模型也很有竞争力。 
+        (3）我们使用一个单一的体系结构，没有太多的参数修改，在BSDS我们展示了边缘检测性能，在NYUDv2深度数据集我们展示了表面正态估计，以及在PASCAL-Context数据集上我们展示了语义分割，都达到了最先进的效果。
 # Video Object Segmentation
 
 1.Instance Embedding Transfer to Unsupervised Video Object Segmentation ([arxiv](https://arxiv.org/pdf/1801.00908v1.pdf))
