@@ -29,3 +29,7 @@
 2.Video Semantic Object Segmentation by Self-Adaptation of DCNN ([arxiv](https://arxiv.org/pdf/1711.08180v1.pdf))
 
 　　evaluation: 可以使用分割后较好的帧来继续优化网络参数（self-adaptation）。
+
+3.Feature Space Optimization for Semantic Video Segmentation
+
+　　evaluation: 提出空间-时间3D全连接CRF。对视频做分割后，利用3D dense CRF来做后处理。
