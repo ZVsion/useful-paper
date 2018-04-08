@@ -2,7 +2,6 @@
 
 # Semantic Segmentation
 1. Fully Convolutional Networks for Semantic Segmentation ([arxiv](http://arxiv.org/abs/1411.4038))([code](https://github.com/shekkizh/FCN.tensorflow))
-加油
 
 　　主要贡献: 1.使用反卷积层进行上采样，提出了跳跃连接来改善上采样的粗糙程度。 2.反卷积层进行上采样时，不是使用简单的双线性插值，而是通过学习实现插值操作（利用双线性插值来初始化反卷积层的参数）。
 
@@ -35,3 +34,5 @@
 
 　　evaluation: 提出空间-时间3D全连接CRF。对视频做分割后，利用3D dense CRF来做后处理。
  4. I NEED SOME NEW IDEA!
+ 
+ 5. [UW CSE455 Project](https://courses.cs.washington.edu/courses/cse455/14au/)
