@@ -36,3 +36,5 @@
  4. I NEED SOME NEW IDEA!
  
  5. [UW CSE455 Project](https://courses.cs.washington.edu/courses/cse455/14au/)
+ 
+ 6. [hypercolumn](https://arxiv.org/pdf/1411.5752.pdf)
