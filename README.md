@@ -33,8 +33,3 @@
 3.Feature Space Optimization for Semantic Video Segmentation
 
 　　evaluation: 提出空间-时间3D全连接CRF。对视频做分割后，利用3D dense CRF来做后处理。
- 4. I NEED SOME NEW IDEA!
- 
- 5. [UW CSE455 Project](https://courses.cs.washington.edu/courses/cse455/14au/)
- 
- 6. [hypercolumn](https://arxiv.org/pdf/1411.5752.pdf)
